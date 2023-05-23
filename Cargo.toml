@@ -1,0 +1,19 @@
+[package]
+name = "rust-crud-api"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# postgres is the Postgres driver for Rust.
+# serde is a library to serialize and deserialize.
+# serde_json is a library specific for JSON.
+# serde_derive is a library to derive the Serialize and Deserialize traits (macro)
+
+[dependencies]
+postgres = "0.19"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+log = "0.4.0"
+env_logger = "0.9.0"
